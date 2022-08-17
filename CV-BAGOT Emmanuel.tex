@@ -1,0 +1,86 @@
+\documentclass[10pt,a4paper,roman,french]{moderncv}        % autres options possibles : taille de fonte ('10pt', '11pt' et '12pt'), format de papier ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') et famille de fonte ('sans' and 'roman')
+\moderncvstyle{classic}                             % autres styles : 'casual' (défaut), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % autres couleurs : 'blue' (défaut), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % décommenter pour supprimer la numérotation automatique des pages pour les CVs de plus d'une page
+\usepackage[utf8]{inputenc}                       % si vous n'utilisez pas xelatex ou lualatex, remplacer par le codage d'entrée que vous utilisez
+\usepackage[scale=0.8,a4paper]{geometry}
+\usepackage{babel}
+\setlength{\columnsep}{1cm}
+\usepackage{multicol}
+%----------------------------------------------------------------------------------
+%            informations personnelles
+%----------------------------------------------------------------------------------
+\firstname{Emmanuel}
+\familyname{BAGOT}
+\title{Ingénieur développement}                               % optionnel : supprimer ou commenter si non souhaité
+\address{1 place de la Mairie}{35770 VERN SUR SEICHE}{} % optionnel : supprimer ou commenter si non souhaité; l'argument « Pays » peut être omis ou vide
+\mobile{0630979691}                          % optionnel : supprimer ou commenter si non souhaité
+%\phone{Numéro de téléphone}                           % optionnel : supprimer ou commenter si non souhaité
+%\fax{Numéro de fax}                             % optionnel : supprimer ou commenter si non souhaité
+\email{bagot.emmanuel@gmail.com}                               % optionnel : supprimer ou commenter si non souhaité
+%\homepage{Page Web personnelle}                         % optionnel : supprimer ou commenter si non souhaité
+%\extrainfo{Information supplémentaire}                 % optionnel : supprimer ou commenter si non souhaité
+\photo[64pt][0pt]{moi-removebg-preview.png} % optionnel : décommenter si souhaité ; '64pt' est un exemple de hauteur que doit avoir la photo, 0.4pt est un exemple d'épaisseur que doit avoir le cadre qui l'entoure (à mettre à 0pt pour supprimer le cadre) et « Image » est le nom du fichier de la photo
+%\quote{Citation}                                 % optionnel : supprimer ou commenter si non souhaité
+%
+\begin{document}
+\vspace*{-15mm}
+\makecvtitle
+\vspace*{-10mm}
+\section{Compétences informatiques}
+\begin{multicols}{2}
+\textbf{Java/J2EE} 
+\begin{itemize} 
+	\item Java JEE 11
+	\item Spring
+	\item Servelt
+	\item Hibernate
+	\item Maven
+	\item Tomcat
+\end{itemize}
+\textbf{\\Web} 
+\begin{itemize} 
+	\item PHP 7 - HTML5
+	\item JQuery
+	\item CSS3
+	\item Apache 2
+\end{itemize}
+\textbf{\\Base de données} 
+\begin{itemize} 
+	\item PostgreSQL
+	\item Mysql
+\end{itemize}
+\textbf{\\Containerisation}
+\begin{itemize} 
+	\item Docker
+	\item Kubernetes
+	\item Helm, ArgoCD
+	
+\end{itemize}
+
+\textbf{\\Autres outils} 
+\begin{itemize} 
+	\item Gitlab CI/CD
+	\item WS REST/SOAP
+	\item Agile, Scrum
+\end{itemize}
+\end{multicols}
+
+\section{Expériences professionelles}
+\subsection{Courante}
+\cventry{Depuis 10/2017}{Ingénieur Développement senior Java-J2EE / PHP }{Seres - DOCAPOST}{Rennes}{}{Développeur senior sur les projets OpenPEPPOL et Temporaris. }
+\cventry{2015 - 2017} {Ingénieur Développement Java-J2EE}{Polymont IT}{Rennes}{}{Mission pour Seres - Docapost pour la mise en place du projet OpenPEPPOL}
+\subsection{Précédentes}
+\cventry{2013 - 2015} {Ingénieur Développement multi-langages}{Novia Systems}{Rennes - Brest}{}{Missions en clientèles multiples allant d'assistance à projets à la prise en charge de missions à court délai de rendu.}
+\cventry{2008 - 2013} {Ingénieur Développement Java}{Effitic}{Rennes}{}{Intégration à différentes équipes de développement de TMA et projets pour le groupe bancaire Arkéa}
+\section{Formation}
+\cventry{2008}{Master 2, Ingénierie informatique}{Université de Bretagne Occidentale}{Brest}{}{}   
+\section{Langues}
+\cvitemwithcomment{Anglais}{Courant}{}
+\cvitemwithcomment{Allemand}{Notions}{}
+\section{Autres expériences}
+\cventry{Depuis 2014}{Conférencier et modérateur de conférences}{Festival Les Utopiales}{Nantes}{}{Préparation, animation et modération de conférences au festival internation de science-fiction Les Utopiales}
+\cventry{Depuis 2020}{Animation d'émissions de vulgarisation politique}{Podcasts}{}{}{Emissions "Restons Polis" consacrés aux institutions françaises et "Swing States" à la politique américaine.}
+\cventry{2014 - 2019}{Organisateur et animateur d'émission}{Festival PodRennes}{Rennes}{}{Préparation du festival et animation d'émission et d'interviews sur scène}
+\vspace*{-10mm}
+\end{document}
